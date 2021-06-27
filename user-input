@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo -n "DIgite o seu nome: "
+read userName
+echo " Seu nome é : $userName."

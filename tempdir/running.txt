@@ -1,0 +1,11 @@
+CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS                     PORTS                               NAMES
+bfac8e98c98d        sampleapp                    "/bin/sh -c 'python3…"   2 minutes ago       Up 2 minutes               0.0.0.0:8090->8080/tcp              samplerunning1
+2b711fd9d9e7        jenkins/jenkins:lts          "/sbin/tini -- /usr/…"   4 weeks ago         Exited (255) 8 hours ago   0.0.0.0:8080->8080/tcp, 50000/tcp   jenkins_server
+6427f67ab00f        credsonisaac/api_simulator   "/api_simulator/.ven…"   4 weeks ago         Exited (255) 4 weeks ago   0.0.0.0:9090->59980/tcp             angry_varahamihira
+d541037a9b55        credsonisaac/api_simulator   "/api_simulator/.ven…"   4 weeks ago         Exited (0) 4 weeks ago                                         youthful_sutherland
+2b0239a51a8f        xjulio/api_simulator         "/api_simulator/.ven…"   4 weeks ago         Exited (0) 4 weeks ago                                         happy_driscoll
+1148912a45af        xjulio/api_simulator         "/bin/bash"              4 weeks ago         Created                                                        vibrant_rubin
+cf194a6cf036        db625c96e846                 "/bin/sh -c 'pip3 in…"   4 weeks ago         Exited (1) 4 weeks ago                                         silly_mendel
+b491054cbb71        meu_httpdv1                  "/bin/bash"              4 weeks ago         Exited (255) 4 weeks ago   0.0.0.0:8080->80/tcp                pensive_robinson
+36232f54bcf6        httpd                        "bash"                   5 weeks ago         Exited (255) 4 weeks ago   80/tcp                              crazy_carson
+34922e2e830f        httpd                        "bash"                   5 weeks ago         Exited (255) 4 weeks ago   80/tcp                              suspicious_rosalind
